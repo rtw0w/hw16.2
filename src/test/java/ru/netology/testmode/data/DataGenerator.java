@@ -4,12 +4,8 @@ import com.github.javafaker.Faker;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.http.ContentType;
-import io.restassured.response.Response;
-import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import lombok.Value;
-import org.junit.jupiter.params.provider.ValueSource;
-import org.openqa.selenium.devtools.v85.serviceworker.model.RegistrationID;
 
 import java.util.Locale;
 
